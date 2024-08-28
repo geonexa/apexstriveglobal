@@ -470,7 +470,7 @@ const HomePage = () => {
                                 <div className="heading heading-dark">
                                     <h3 className="heading__title mb-30">Get in Touch with Us</h3>
                                     <p className="heading__desc mb-30" style={{ fontSize: "20px" }}>
-                                        At ApexStrive Global LLP, we're here to help you navigate your financial journey with confidence and ease. Whether you have a question about our services, need expert advice, or want to schedule a consultation, our team is ready to assist you.
+                                        At ApexStrive Global LLP, we&apos;re here to help you navigate your financial journey with confidence and ease. Whether you have a question about our services, need expert advice, or want to schedule a consultation, our team is ready to assist you.
 
 
                                     </p>

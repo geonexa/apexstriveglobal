@@ -102,7 +102,7 @@ const ContactPage = () => {
                                             <h4 className="contact-panel__title">Get In Touch</h4>
                                         </div>
                                         <p className="contact-info__desc">
-                                            Whether you're a growing business seeking reliable accounting support, a corporation in need of thorough auditing, or an individual looking for expert tax advice, ApexStrive Global LLP is here to help. Contact us today to discover how we can assist you in achieving your financial goals and driving your success.
+                                            Whether you&apos;re a growing business seeking reliable accounting support, a corporation in need of thorough auditing, or an individual looking for expert tax advice, ApexStrive Global LLP is here to help. Contact us today to discover how we can assist you in achieving your financial goals and driving your success.
                                         </p>
                                         <div className="col-sm-6 col-md-6 col-lg-6">
                                             <div className="form-group">
