@@ -13,7 +13,7 @@ const PageHeader = ({ title, description }) => {
                 backgroundBlendMode:"overlay",
                 backgroundRepeat: 'no-repeat',
             }}
-            className="page-title page-title-layout13 text-center bg-overlay bg-overlay-gradient bg-parallax">
+            className=" page-title page-title-layout13 text-center bg-overlay bg-overlay-gradient bg-parallax">
             {/* <div className="bg-img"><img src="assets/images/page-titles/11.jpg" alt="background"/></div> */}
             <div className="container">
                 <div className="row">

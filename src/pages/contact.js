@@ -9,6 +9,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Footer from '@/components/Footer'
 import PageHeader from '@/components/PageHeader'
+import Image from 'next/image'
 
 
 const ContactPage = () => {
@@ -70,10 +71,10 @@ const ContactPage = () => {
     return (
         <>
             <Head>
-                <meta name="description" content=" ApexStrive Global Accounting LLP." />
-                <meta name="keywords" content=" ApexStrive Global Accounting LLPn" />
-                <meta name="author" content=" ApexStrive Global Accounting LLP" />
-                <meta name="copyright" content=" ApexStrive Global Accounting LLP" />
+            <meta name="description" content="ApexStrive Global LLP specializes in personalized accounting, auditing, and taxation services. We empower businesses and individuals with financial clarity and integrity through tailored solutions that drive success." />
+        <meta name="keywords" content="ApexStrive, accounting, auditing, taxation, financial services, tax planning, financial clarity, business solutions, compliance, financial management" />
+        <meta name="author" content="ApexStrive Global LLP" />
+        <meta name="copyright" content="ApexStrive Global Accounting LLP" />
                 <meta name="robots" content="follow" />
                 <title>Contact Us |  ApexStrive Global Accounting LLP </title>
             </Head>
@@ -85,7 +86,7 @@ const ContactPage = () => {
                 <MainNavbar />
                 <PageHeader
                     title="Contact Us"
-                    description="Connect with  ApexStrive Global Accounting LLP" />
+                    description="Your Queries, Our Priority" />
 
 
 
@@ -95,15 +96,33 @@ const ContactPage = () => {
                 <section className="contact-layout1 pb-60">
                     <div className="container">
                         <div className="row">
-                            <div className="col-sm-12 col-md-12 col-lg-12 mb-3">
+
+                        <div class="col-sm-12 col-md-12 col-lg-4  mb-3">
+                                <div className="contact-form">
+                                    <p className="contact-info__desc">
+                                        Whether you&apos;re a growing business seeking reliable accounting support, a corporation in need of thorough auditing, or an individual looking for expert tax advice, ApexStrive Global LLP is here to help. Contact us today to discover how we can assist you in achieving your financial goals and driving your success.
+                                    </p>
+                          
+                                    <ul class="contact__info-list list-unstyled mb-30">
+                                        <li class="mb-0"><strong>Mobile:</strong> +91 9999999999</li>
+                                        <li class="mb-0"><strong>Email:</strong> connect@apexstriveglobal.com</li>
+                                        <li class="mb-20"><strong>Address:</strong> Campus Corner 1, 100 Feet Anand Nagar Rd, Prahlad Nagar, Ahmedabad, Gujarat 380015</li>
+                                        {/* <li>Mon-Fri: 8am – 7pm</li> */}
+                                    </ul>
+                                    {/* <a href="contact-us.html" class="btn btn__primary btn__icon">
+                                        <span>Get Started</span>
+                                        <i class="icon-arrow-right"></i>
+                                    </a> */}
+                                </div>
+                            </div>
+                            
+                            <div className="col-sm-12 col-md-12 col-lg-8 mb-3">
                                 <div className="contact-form">
                                     <div className="row">
                                         <div className="col-sm-12">
                                             <h4 className="contact-panel__title">Get In Touch</h4>
                                         </div>
-                                        <p className="contact-info__desc">
-                                            Whether you&apos;re a growing business seeking reliable accounting support, a corporation in need of thorough auditing, or an individual looking for expert tax advice, ApexStrive Global LLP is here to help. Contact us today to discover how we can assist you in achieving your financial goals and driving your success.
-                                        </p>
+
                                         <div className="col-sm-6 col-md-6 col-lg-6">
                                             <div className="form-group">
                                                 <input
@@ -165,6 +184,9 @@ const ContactPage = () => {
                             </div>
 
 
+                            
+
+
 
 
 
@@ -182,7 +204,7 @@ const ContactPage = () => {
                     </div>
 
 
-                    <div class="container">
+                    {/* <div class="container">
                         <div class="row">
                             <div class="col-12">
                                 <div class="contact-info-box mb-0">
@@ -191,7 +213,7 @@ const ContactPage = () => {
                                         <li class="mb-20">Campus Corner 1, 100 Feet Anand Nagar Rd, Prahlad Nagar, Ahmedabad, Gujarat 380015</li>
                                         <li class="mb-0">Email: <a href="mailto:connect@apexstriveglobal.com">connect@apexstriveglobal.com</a></li>
                                         <li class="mb-0">Mobile: <a href="mailto:connect@apexstriveglobal.com">+91 9999999999</a></li>
-                                        {/* <li>Mon-Fri: 8am – 7pm</li> */}
+                                  
                                     </ul>
                                     <a href="contact-us.html" class="btn btn__primary btn__icon">
                                         <span>Get Started</span>
@@ -200,7 +222,7 @@ const ContactPage = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </section>
 
 

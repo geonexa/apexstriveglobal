@@ -19,10 +19,10 @@ const AboutPage = () => {
   return (
     <>
       <Head>
-        <meta name="description" content=" ApexStrive Global Accounting LLP." />
-        <meta name="keywords" content=" ApexStrive Global Accounting LLPn" />
-        <meta name="author" content=" ApexStrive Global Accounting LLP" />
-        <meta name="copyright" content=" ApexStrive Global Accounting LLP" />
+      <meta name="description" content="ApexStrive Global LLP specializes in personalized accounting, auditing, and taxation services. We empower businesses and individuals with financial clarity and integrity through tailored solutions that drive success." />
+        <meta name="keywords" content="ApexStrive, accounting, auditing, taxation, financial services, tax planning, financial clarity, business solutions, compliance, financial management" />
+        <meta name="author" content="ApexStrive Global LLP" />
+        <meta name="copyright" content="ApexStrive Global Accounting LLP" />
         <meta name="robots" content="follow" />
         <title>About Us |  ApexStrive Global Accounting LLP </title>
       </Head>
@@ -33,7 +33,7 @@ const AboutPage = () => {
         <MainNavbar />
         <PageHeader
           title="About Us"
-          description="Connect with  ApexStrive Global Accounting LLP" />
+          description="Who We Are" />
 
 
         <section class="about-layout1" >
