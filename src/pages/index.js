@@ -112,7 +112,7 @@ const HomePage = () => {
                                             Your Trusted Partner in Accounting, Auditing, and Taxation
                                         </h2>
 
-                                        <p class="slide__desc">Focused on your financial success with customized, client-centric services.</p>
+                                        <p className="slide__desc">Focused on your financial success with customized, client-centric services.</p>
 
                                         <Link
                                             href="#"
@@ -152,23 +152,23 @@ const HomePage = () => {
 
 
 
-                <section class="about-layout1" ref={aboutProgressRef}>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-12 col-lg-6">
-                                <div class="heading mb-30">
-                                    <div class="d-flex align-items-center mb-20">
-                                        <div class="divider divider-primary mr-30"></div>
-                                        <h2 class="heading__subtitle mb-0">Specializing in personalized accounting, auditing, and tax services to drive your business forward. </h2>
+                <section className="about-layout1" ref={aboutProgressRef}>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-sm-12 col-md-12 col-lg-6">
+                                <div className="heading mb-30">
+                                    <div className="d-flex align-items-center mb-20">
+                                        <div className="divider divider-primary mr-30"></div>
+                                        <h2 className="heading__subtitle mb-0">Specializing in personalized accounting, auditing, and tax services to drive your business forward. </h2>
                                     </div>
-                                    {/* <h3 class="heading__title mb-40">Manages service delivery across various business like, HR, Legal and
+                                    {/* <h3 className="heading__title mb-40">Manages service delivery across various business like, HR, Legal and
                                         other IT departments!!
                                     </h3> */}
                                 </div>
-                                <div class="position-relative offset-xl-1">
-                                    <i class="icon-quote"></i>
-                                    <p class="mb-40">At ApexStrive Global LLP, we understand that navigating the complex world of accounting, auditing, and taxation can be daunting. That&apos;s why we&apos;re here—to provide you with tailored, top-notch services that not only meet but exceed your expectations. As a firm specializing in these critical areas, our primary focus is you, our valued client. We are committed to delivering exceptional results with a customer-centric approach that sets us apart.</p>
-                                    {/* <ul class="list-items list-items-layout2 list-unstyled d-flex flex-wrap list-horizontal mb-50">
+                                <div className="position-relative offset-xl-1">
+                                    <i className="icon-quote"></i>
+                                    <p className="mb-40">At ApexStrive Global LLP, we understand that navigating the complex world of accounting, auditing, and taxation can be daunting. That&apos;s why we&apos;re here—to provide you with tailored, top-notch services that not only meet but exceed your expectations. As a firm specializing in these critical areas, our primary focus is you, our valued client. We are committed to delivering exceptional results with a customer-centric approach that sets us apart.</p>
+                                    {/* <ul className="list-items list-items-layout2 list-unstyled d-flex flex-wrap list-horizontal mb-50">
                                         <li>Eliminate Repeat Entry</li>
                                         <li>Simplify Communication</li>
                                         <li>Drive Business Process</li>
@@ -178,32 +178,32 @@ const HomePage = () => {
                                     </ul> */}
                                 </div>
 
-                                <div class="heading mb-30">
-                                    <div class="d-flex align-items-center mb-20">
-                                        <div class="divider divider-primary mr-30"></div>
-                                        <h2 class="heading__subtitle mb-0">Our Mission </h2>
+                                <div className="heading mb-30">
+                                    <div className="d-flex align-items-center mb-20">
+                                        <div className="divider divider-primary mr-30"></div>
+                                        <h2 className="heading__subtitle mb-0">Our Mission </h2>
                                     </div>
-                                    {/* <h3 class="heading__title mb-40">Manages service delivery across various business like, HR, Legal and
+                                    {/* <h3 className="heading__title mb-40">Manages service delivery across various business like, HR, Legal and
                                         other IT departments!!
                                     </h3> */}
                                 </div>
-                                <div class="position-relative offset-xl-1">
-                                    <i class="icon-quote"></i>
-                                    <p class="mb-40">Our mission at ApexStrive Global LLP is to empower businesses and individuals with unparalleled financial clarity and integrity. We strive to be your trusted partner, offering bespoke solutions that are designed to meet your unique needs and objectives. By placing your interests at the forefront of our operations, we ensure that every service we provide is meticulously crafted to support your success.</p>
+                                <div className="position-relative offset-xl-1">
+                                    <i className="icon-quote"></i>
+                                    <p className="mb-40">Our mission at ApexStrive Global LLP is to empower businesses and individuals with unparalleled financial clarity and integrity. We strive to be your trusted partner, offering bespoke solutions that are designed to meet your unique needs and objectives. By placing your interests at the forefront of our operations, we ensure that every service we provide is meticulously crafted to support your success.</p>
 
 
                                 </div>
 
                             </div>
-                            <div class="col-sm-12 col-md-12 col-lg-5 offset-lg-1">
-                                <div class="about__img mb-40">
+                            <div className="col-sm-12 col-md-12 col-lg-5 offset-lg-1">
+                                <div className="about__img mb-40">
                                     <Image src={AboutImg1} alt="about" />
-                                    <blockquote class="blockquote d-flex align-items-end mb-0">
-                                        <div class="blockquote__avatar">
+                                    <blockquote className="blockquote d-flex align-items-end mb-0">
+                                        <div className="blockquote__avatar">
                                             <Image src={thumbsImg} alt="thumb" />
                                         </div>
-                                        <div class="blockquote__content">
-                                            <h4 class="blockquote__title mb-0">Integrity in Every Transaction
+                                        <div className="blockquote__content">
+                                            <h4 className="blockquote__title mb-0">Integrity in Every Transaction
                                             </h4>
                                         </div>
                                     </blockquote>
@@ -218,15 +218,15 @@ const HomePage = () => {
 
 
 
-                {/* <section class="banner-layout4 pt-130 pb-130">
+                {/* <section className="banner-layout4 pt-130 pb-130">
 
-                    <div class="container-fluid px-0">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6" style={{ padding: "0px" }}>
+                    <div className="container-fluid px-0">
+                        <div className="row">
+                            <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6" style={{ padding: "0px" }}>
                                 <Image src={AboutImg1} alt="banner" style={{ width: "100%" }} />
                             </div>
 
-                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 " style={{ padding: "0px" }}>
+                            <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 " style={{ padding: "0px" }}>
 
                                 <div style={{
                                     backgroundImage: `url(${BackgroundIMg.src})`,
@@ -238,13 +238,13 @@ const HomePage = () => {
 
 
                                 >
-                                    <div class="inner-padding">
+                                    <div className="inner-padding">
 
-                                        <div class="heading heading-light mb-60">
-                                            <h3 class="heading__title mb-30">
+                                        <div className="heading heading-light mb-60">
+                                            <h3 className="heading__title mb-30">
                                                 Why ApexStrive Global Accounting LLP?
                                             </h3>
-                                            <h6 class="heading__title mb-30" style={{ fontSize: "20px", textAlign: "justify" }}>
+                                            <h6 className="heading__title mb-30" style={{ fontSize: "20px", textAlign: "justify" }}>
                                                 At ApexStrive Global Accounting LLP, we are dedicated to revolutionizing the way we address carbon emissions. Our cutting-edge technology offers a sustainable, energy-efficient solution for capturing and transforming CO2. By leveraging renewable resources and our unique regeneration method, we provide an innovative approach to closing the carbon cycle, making a positive impact on the environment and driving the transition to a greener future. Choose ApexStrive Global Accounting LLP for reliable, advanced, and eco-friendly carbon capture solutions.
                                             </h6>
 
@@ -259,72 +259,72 @@ const HomePage = () => {
                 </section> */}
 
 
-                <section class="portfolio-grid portfolio-grid-carousel pb-40">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-12 col-lg-6">
-                                <div class="heading mb-50">
-                                    <div class="d-flex align-items-center">
-                                        <div class="divider divider-primary mr-30"></div>
-                                        <h2 class="heading__subtitle mb-0">Why Choose ApexStrive Global LLP?</h2>
+                <section className="portfolio-grid portfolio-grid-carousel pb-40">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-sm-12 col-md-12 col-lg-6">
+                                <div className="heading mb-50">
+                                    <div className="d-flex align-items-center">
+                                        <div className="divider divider-primary mr-30"></div>
+                                        <h2 className="heading__subtitle mb-0">Why Choose ApexStrive Global LLP?</h2>
                                     </div>
-                                    <h3 class="heading__title mb-0">Our Edge</h3>
+                                    <h3 className="heading__title mb-0">Our Edge</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div className="row">
 
-                            <div class="col-sm-12 col-md-6 col-lg-3">
-                                <div class="portfolio-item">
-                                    <div class="portfolio__img">
+                            <div className="col-sm-12 col-md-6 col-lg-3">
+                                <div className="portfolio-item">
+                                    <div className="portfolio__img">
                                         <Image src={WhyUsImg1} alt="portfolio img" />
                                     </div>
-                                    <div class="portfolio__content">
+                                    <div className="portfolio__content">
 
-                                        <h4 class="portfolio__title">Customer-Centric Approach</h4>
-                                        <p class="portfolio__desc">At ApexStrive Global LLP, your satisfaction is our top priority. We take the time to understand your specific needs and challenges, tailoring our services to deliver the most effective solutions. Our team of professionals is always available to address your questions and concerns, ensuring a seamless and personalized experience.</p>
+                                        <h4 className="portfolio__title">Customer-Centric Approach</h4>
+                                        <p className="portfolio__desc">At ApexStrive Global LLP, your satisfaction is our top priority. We take the time to understand your specific needs and challenges, tailoring our services to deliver the most effective solutions. Our team of professionals is always available to address your questions and concerns, ensuring a seamless and personalized experience.</p>
 
                                     </div>
                                 </div>
 
                             </div>
-                            <div class="col-sm-12 col-md-6 col-lg-3">
-                                <div class="portfolio-item">
-                                    <div class="portfolio__img">
+                            <div className="col-sm-12 col-md-6 col-lg-3">
+                                <div className="portfolio-item">
+                                    <div className="portfolio__img">
                                         <Image src={WhyUsImg3} alt="portfolio img" />
                                     </div>
-                                    <div class="portfolio__content">
+                                    <div className="portfolio__content">
 
-                                        <h4 class="portfolio__title">Excellence in Service</h4>
-                                        <p class="portfolio__desc">We are committed to maintaining the highest standards of excellence in everything we do. Our team comprises highly skilled and experienced professionals who are dedicated to providing accurate, reliable, and timely services. We leverage the latest technology and industry best practices to deliver superior results and keep you ahead of the curve.</p>
+                                        <h4 className="portfolio__title">Excellence in Service</h4>
+                                        <p className="portfolio__desc">We are committed to maintaining the highest standards of excellence in everything we do. Our team comprises highly skilled and experienced professionals who are dedicated to providing accurate, reliable, and timely services. We leverage the latest technology and industry best practices to deliver superior results and keep you ahead of the curve.</p>
 
                                     </div>
                                 </div>
 
                             </div>
-                            <div class="col-sm-12 col-md-6 col-lg-3">
-                                <div class="portfolio-item">
-                                    <div class="portfolio__img">
+                            <div className="col-sm-12 col-md-6 col-lg-3">
+                                <div className="portfolio-item">
+                                    <div className="portfolio__img">
                                         <Image src={WhyUsImg2} alt="portfolio img" />
                                     </div>
-                                    <div class="portfolio__content">
+                                    <div className="portfolio__content">
 
-                                        <h4 class="portfolio__title">Integrity and Transparency</h4>
-                                        <p class="portfolio__desc">Trust is the cornerstone of our relationship with clients. We operate with the highest level of integrity and transparency, ensuring that you are always informed and confident in the services we provide. Our straightforward approach and open communication build lasting partnerships based on mutual respect and trust.</p>
+                                        <h4 className="portfolio__title">Integrity and Transparency</h4>
+                                        <p className="portfolio__desc">Trust is the cornerstone of our relationship with clients. We operate with the highest level of integrity and transparency, ensuring that you are always informed and confident in the services we provide. Our straightforward approach and open communication build lasting partnerships based on mutual respect and trust.</p>
 
                                     </div>
                                 </div>
 
                             </div>
-                            <div class="col-sm-12 col-md-6 col-lg-3">
-                                <div class="portfolio-item">
-                                    <div class="portfolio__img">
+                            <div className="col-sm-12 col-md-6 col-lg-3">
+                                <div className="portfolio-item">
+                                    <div className="portfolio__img">
                                         <Image src={WhyUsImg4} alt="portfolio img" />
                                     </div>
-                                    <div class="portfolio__content">
+                                    <div className="portfolio__content">
 
-                                        <h4 class="portfolio__title">Innovative Solutions</h4>
-                                        <p class="portfolio__desc">In a rapidly evolving business landscape, staying ahead requires innovative thinking. At ApexStrive Global LLP, we continuously explore new technologies and methodologies to enhance our services and provide you with cutting-edge solutions. Our commitment to innovation ensures that you receive the most effective and efficient support available.</p>
+                                        <h4 className="portfolio__title">Innovative Solutions</h4>
+                                        <p className="portfolio__desc">In a rapidly evolving business landscape, staying ahead requires innovative thinking. At ApexStrive Global LLP, we continuously explore new technologies and methodologies to enhance our services and provide you with cutting-edge solutions. Our commitment to innovation ensures that you receive the most effective and efficient support available.</p>
 
                                     </div>
                                 </div>
@@ -477,9 +477,9 @@ const HomePage = () => {
                                     <p className="heading__desc mb-30" style={{ fontSize: "20px" }}>
                                         <strong>Reach out to Us: </strong><br />
 
-                                        <strong>Phone:</strong> +91 999999999999<br />
+                                        <strong>Phone:</strong> <br />+91 9426303628 <br/>+91 9638443800 <br/>+91 9099065361<br />
                                         <strong>Email:</strong> connect@apexstriveglobal.com<br />
-                                        <strong>Address:</strong> Campus Corner 1, 100 Feet Anand Nagar Rd, Prahlad Nagar, Ahmedabad, Gujarat 380015<br />
+                                        <strong>Address:</strong> 02, S.F., Camps Corner-1, Nr. Paras Bungalows, 100 Ft Road, Satellite, Ahmedabad, Gujarat, India - 380015<br />
                                     </p>
 
                                 </div>
@@ -521,8 +521,8 @@ const HomePage = () => {
                                                 </div>
                                             </div>
 
-                                            <div class="col-sm-6 col-md-6 col-lg-6">
-                                                <div class="form-group">
+                                            <div className="col-sm-6 col-md-6 col-lg-6">
+                                                <div className="form-group">
                                                     <select
                                                         className="form-control"
                                                         name="subject"

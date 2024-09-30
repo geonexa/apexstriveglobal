@@ -66,12 +66,12 @@ const MainNavbar = () => {
         <div className={`header header-light  is-sticky `}>
 
 
-{/* <div class="d-none d-md-block">
-        <div class="topbar">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 text-center">
-                <span class="topbar__text">
+{/* <div className="d-none d-md-block">
+        <div className="topbar">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 text-center">
+                <span className="topbar__text">
                   Need Help: Providing Innovative and Sustainable Solutions, Call (002) 01061245741
                 </span>
               </div>
@@ -81,29 +81,29 @@ const MainNavbar = () => {
       </div> */}
 
 
-            {/* <div class="d-none d-md-block">
-                <div class="topbar topbar-dark">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <ul class="topbar__contact d-flex flex-wrap list-unstyled mb-0">
+            {/* <div className="d-none d-md-block">
+                <div className="topbar topbar-dark">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12">
+                                <div className="d-flex align-items-center justify-content-between">
+                                    <ul className="topbar__contact d-flex flex-wrap list-unstyled mb-0">
                                         <li>
-                                            <i class="icon-phone"></i><a href="tel:+5565454117">+91 9999999999</a>
+                                            <i className="icon-phone"></i><a href="tel:+5565454117">+91 9999999999</a>
                                         </li>
                                         <li>
-                                            <i class="icon-mail"></i><a href="mailto:connect@apexstriveglobal.com">connect@apexstriveglobal.com</a>
+                                            <i className="icon-mail"></i><a href="mailto:connect@apexstriveglobal.com">connect@apexstriveglobal.com</a>
                                         </li>
                                         <li>
-                                            <i class="icon-clock"></i><Link href="/contact">Hours: Mon-Fri: 9AM – 7PM</Link>
+                                            <i className="icon-clock"></i><Link href="/contact">Hours: Mon-Fri: 9AM – 7PM</Link>
                                         </li>
                                     </ul>
-                                    <div class="d-flex">
-                                        <ul class="social-icons list-unstyled mb-0 mr-30">
-                                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <div className="d-flex">
+                                        <ul className="social-icons list-unstyled mb-0 mr-30">
+                                            <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+                                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
                                         </ul>
 
                                     </div>

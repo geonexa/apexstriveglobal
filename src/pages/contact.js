@@ -97,21 +97,22 @@ const ContactPage = () => {
                     <div className="container">
                         <div className="row">
 
-                        <div class="col-sm-12 col-md-12 col-lg-4  mb-3">
+                        <div className="col-sm-12 col-md-12 col-lg-4  mb-3">
                                 <div className="contact-form">
                                     <p className="contact-info__desc">
                                         Whether you&apos;re a growing business seeking reliable accounting support, a corporation in need of thorough auditing, or an individual looking for expert tax advice, ApexStrive Global LLP is here to help. Contact us today to discover how we can assist you in achieving your financial goals and driving your success.
                                     </p>
                           
-                                    <ul class="contact__info-list list-unstyled mb-30">
-                                        <li class="mb-0"><strong>Mobile:</strong> +91 9999999999</li>
-                                        <li class="mb-0"><strong>Email:</strong> connect@apexstriveglobal.com</li>
-                                        <li class="mb-20"><strong>Address:</strong> Campus Corner 1, 100 Feet Anand Nagar Rd, Prahlad Nagar, Ahmedabad, Gujarat 380015</li>
+                                    <ul className="contact__info-list list-unstyled mb-30">
+                                        <li className="mb-0"><strong>Mobile:</strong><br/>
+                                         +91 9426303628 <br/>+91 9638443800 <br/>+91 9099065361</li><br/>
+                                        <li className="mb-0"><strong>Email:</strong> connect@apexstriveglobal.com</li><br/>
+                                        <li className="mb-20"><strong>Address:</strong> 02, S.F., Camps Corner-1, Nr. Paras Bungalows, 100 Ft Road, Satellite, Ahmedabad, Gujarat, India - 380015</li>
                                         {/* <li>Mon-Fri: 8am – 7pm</li> */}
                                     </ul>
-                                    {/* <a href="contact-us.html" class="btn btn__primary btn__icon">
+                                    {/* <a href="contact-us.html" className="btn btn__primary btn__icon">
                                         <span>Get Started</span>
-                                        <i class="icon-arrow-right"></i>
+                                        <i className="icon-arrow-right"></i>
                                     </a> */}
                                 </div>
                             </div>
@@ -196,28 +197,28 @@ const ContactPage = () => {
                 </section>
 
 
-                <section class="google-map py-0">
-                    <div id="map" class="height-500">
+                <section className="google-map py-0">
+                    <div id="map" className="height-500">
 
 
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14689.261166450719!2d72.5074032!3d23.0121929!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b002b251f4d%3A0xbd3aebecc2d6b859!2sApexstrive%20Global%20accounting%20LLP!5e0!3m2!1sen!2sin!4v1724759500292!5m2!1sen!2sin" style={{ border: "none", width: "100%", height: "100%" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14689.261166450719!2d72.5074032!3d23.0121929!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b002b251f4d%3A0xbd3aebecc2d6b859!2sApexstrive%20Global%20accounting%20LLP!5e0!3m2!1sen!2sin!4v1724759500292!5m2!1sen!2sin" style={{ border: "none", width: "100%", height: "100%" }} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
 
-                    {/* <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="contact-info-box mb-0">
-                                    <h4 class="contact__info-box-title">Quick Contacts</h4>
-                                    <ul class="contact__info-list list-unstyled mb-30">
-                                        <li class="mb-20">Campus Corner 1, 100 Feet Anand Nagar Rd, Prahlad Nagar, Ahmedabad, Gujarat 380015</li>
-                                        <li class="mb-0">Email: <a href="mailto:connect@apexstriveglobal.com">connect@apexstriveglobal.com</a></li>
-                                        <li class="mb-0">Mobile: <a href="mailto:connect@apexstriveglobal.com">+91 9999999999</a></li>
+                    {/* <div className="container">
+                        <div className="row">
+                            <div className="col-12">
+                                <div className="contact-info-box mb-0">
+                                    <h4 className="contact__info-box-title">Quick Contacts</h4>
+                                    <ul className="contact__info-list list-unstyled mb-30">
+                                        <li className="mb-20">Campus Corner 1, 100 Feet Anand Nagar Rd, Prahlad Nagar, Ahmedabad, Gujarat 380015</li>
+                                        <li className="mb-0">Email: <a href="mailto:connect@apexstriveglobal.com">connect@apexstriveglobal.com</a></li>
+                                        <li className="mb-0">Mobile: <a href="mailto:connect@apexstriveglobal.com">+91 9999999999</a></li>
                                   
                                     </ul>
-                                    <a href="contact-us.html" class="btn btn__primary btn__icon">
+                                    <a href="contact-us.html" className="btn btn__primary btn__icon">
                                         <span>Get Started</span>
-                                        <i class="icon-arrow-right"></i>
+                                        <i className="icon-arrow-right"></i>
                                     </a>
                                 </div>
                             </div>
