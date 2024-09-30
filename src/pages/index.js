@@ -82,10 +82,10 @@ const HomePage = () => {
     return (
         <>
             <Head>
-            <meta name="description" content="ApexStrive Global LLP specializes in personalized accounting, auditing, and taxation services. We empower businesses and individuals with financial clarity and integrity through tailored solutions that drive success." />
-        <meta name="keywords" content="ApexStrive, accounting, auditing, taxation, financial services, tax planning, financial clarity, business solutions, compliance, financial management" />
-        <meta name="author" content="ApexStrive Global LLP" />
-        <meta name="copyright" content="ApexStrive Global Accounting LLP" />
+                <meta name="description" content="ApexStrive Global LLP specializes in personalized accounting, auditing, and taxation services. We empower businesses and individuals with financial clarity and integrity through tailored solutions that drive success." />
+                <meta name="keywords" content="ApexStrive, accounting, auditing, taxation, financial services, tax planning, financial clarity, business solutions, compliance, financial management" />
+                <meta name="author" content="ApexStrive Global LLP" />
+                <meta name="copyright" content="ApexStrive Global Accounting LLP" />
                 <meta name="robots" content="follow" />
                 <title>ApexStrive Global Accounting LLP </title>
             </Head>
@@ -449,20 +449,6 @@ const HomePage = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <section className="banner-layout1 pt-90 pb-90 bg-overlay ">
                     <div className="container-fluid">
                         <div className="row">
@@ -477,7 +463,7 @@ const HomePage = () => {
                                     <p className="heading__desc mb-30" style={{ fontSize: "20px" }}>
                                         <strong>Reach out to Us: </strong><br />
 
-                                        <strong>Phone:</strong> <br />+91 9426303628 <br/>+91 9638443800 <br/>+91 9099065361<br />
+                                        <strong>Phone:</strong> <br />+91 9426303628 <br />+91 9638443800 <br />+91 9099065361<br />
                                         <strong>Email:</strong> connect@apexstriveglobal.com<br />
                                         <strong>Address:</strong> 02, S.F., Camps Corner-1, Nr. Paras Bungalows, 100 Ft Road, Satellite, Ahmedabad, Gujarat, India - 380015<br />
                                     </p>
