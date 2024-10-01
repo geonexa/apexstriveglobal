@@ -71,10 +71,10 @@ const ContactPage = () => {
     return (
         <>
             <Head>
-            <meta name="description" content="ApexStrive Global LLP specializes in personalized accounting, auditing, and taxation services. We empower businesses and individuals with financial clarity and integrity through tailored solutions that drive success." />
-        <meta name="keywords" content="ApexStrive, accounting, auditing, taxation, financial services, tax planning, financial clarity, business solutions, compliance, financial management" />
-        <meta name="author" content="ApexStrive Global LLP" />
-        <meta name="copyright" content="ApexStrive Global Accounting LLP" />
+                <meta name="description" content="Contact Us: Contact us today to discover how we can assist you in achieving your financial goals and driving your success." />
+                <meta name="keywords" content="ApexStrive, accounting, auditing, taxation, financial services, tax planning, financial clarity, business solutions, compliance, financial management" />
+                <meta name="author" content="ApexStrive Global LLP" />
+                <meta name="copyright" content="ApexStrive Global Accounting LLP" />
                 <meta name="robots" content="follow" />
                 <title>Contact Us |  ApexStrive Global Accounting LLP </title>
             </Head>
@@ -97,16 +97,16 @@ const ContactPage = () => {
                     <div className="container">
                         <div className="row">
 
-                        <div className="col-sm-12 col-md-12 col-lg-4  mb-3">
+                            <div className="col-sm-12 col-md-12 col-lg-4  mb-3">
                                 <div className="contact-form">
                                     <p className="contact-info__desc">
                                         Whether you&apos;re a growing business seeking reliable accounting support, a corporation in need of thorough auditing, or an individual looking for expert tax advice, ApexStrive Global LLP is here to help. Contact us today to discover how we can assist you in achieving your financial goals and driving your success.
                                     </p>
-                          
+
                                     <ul className="contact__info-list list-unstyled mb-30">
-                                        <li className="mb-0"><strong>Mobile:</strong><br/>
-                                         +91 9426303628 <br/>+91 9638443800 <br/>+91 9099065361</li><br/>
-                                        <li className="mb-0"><strong>Email:</strong> connect@apexstriveglobal.com</li><br/>
+                                        <li className="mb-0"><strong>Mobile:</strong><br />
+                                            +91 9426303628 <br />+91 9638443800 <br />+91 9099065361</li><br />
+                                        <li className="mb-0"><strong>Email:</strong> connect@apexstriveglobal.com</li><br />
                                         <li className="mb-20"><strong>Address:</strong> 02, S.F., Camps Corner-1, Nr. Paras Bungalows, 100 Ft Road, Satellite, Ahmedabad, Gujarat, India - 380015</li>
                                         {/* <li>Mon-Fri: 8am – 7pm</li> */}
                                     </ul>
@@ -116,7 +116,7 @@ const ContactPage = () => {
                                     </a> */}
                                 </div>
                             </div>
-                            
+
                             <div className="col-sm-12 col-md-12 col-lg-8 mb-3">
                                 <div className="contact-form">
                                     <div className="row">
@@ -185,7 +185,7 @@ const ContactPage = () => {
                             </div>
 
 
-                            
+
 
 
 

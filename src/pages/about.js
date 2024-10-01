@@ -20,7 +20,7 @@ const AboutPage = () => {
   return (
     <>
       <Head>
-      <meta name="description" content="ApexStrive Global LLP specializes in personalized accounting, auditing, and taxation services. We empower businesses and individuals with financial clarity and integrity through tailored solutions that drive success." />
+      <meta name="description" content="About Us: We empower businesses and individuals with financial clarity and integrity through tailored solutions that drive success." />
         <meta name="keywords" content="ApexStrive, accounting, auditing, taxation, financial services, tax planning, financial clarity, business solutions, compliance, financial management" />
         <meta name="author" content="ApexStrive Global LLP" />
         <meta name="copyright" content="ApexStrive Global Accounting LLP" />

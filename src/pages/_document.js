@@ -12,6 +12,7 @@ export default function Document() {
         <meta name="author" content="ApexStrive Global LLP" />
         <meta name="copyright" content="ApexStrive Global Accounting LLP" />
         <meta name="robots" content="follow" />
+        <meta name="google-site-verification" content="b8S8oSpr22kYUjwziouSv8IHCeb8NKD9aCGpuXc-zns" />
 
 
 

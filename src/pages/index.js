@@ -561,8 +561,6 @@ const HomePage = () => {
                                                 </button>
 
 
-
-
                                                 <div className="contact-result">
                                                     <p>{message}</p>
                                                 </div>
