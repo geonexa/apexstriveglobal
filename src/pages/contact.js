@@ -209,26 +209,40 @@ const ContactPage = () => {
                 </section>
 
 {/* 13-07-26 */}
-                                                    <section className="pt-5 pb-5">
+                                                   <section className="pt-80 pb-80">
   <div className="container">
 
-    <h2 className="text-center mb-5">Our Team</h2>
+    <div className="text-center mb-5">
+      <h2>Our Leadership Team</h2>
+    </div>
 
     <div className="row">
 
       {teamMembers.map((member, index) => (
-        <div className="col-lg-4 col-md-6 mb-4" key={index}>
+        <div className="col-lg-4 col-md-6 col-sm-12 mb-4" key={index}>
 
-          <div className="card">
+          <div
+            style={{
+              background: "#fff",
+              borderRadius: "10px",
+              overflow: "hidden",
+              boxShadow: "0 5px 20px rgba(0,0,0,.1)"
+            }}
+          >
 
             <Image
               src={member.image}
               alt={member.name}
               width={400}
               height={400}
+              style={{
+                width: "100%",
+                height: "350px",
+                objectFit: "cover"
+              }}
             />
 
-            <div className="card-body text-center">
+            <div style={{ padding: "20px", textAlign: "center" }}>
               <h4>{member.name}</h4>
               <p>{member.designation}</p>
             </div>
