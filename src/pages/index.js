@@ -464,8 +464,8 @@ const HomePage = () => {
                                         <strong>Reach out to Us: </strong><br />
 
                                         <strong>Phone:</strong> <br />+91 9426303628 <br />+91 9638443800 <br />+91 9099065361<br />
-                                        <strong>Email:</strong> connect@apexstriveglobal.com<br />
-                                        <strong>Address:</strong> 02, S.F., Camps Corner-1, Nr. Paras Bungalows, 100 Ft Road, Satellite, Ahmedabad, Gujarat, India - 380015<br />
+                                        <strong>Email:</strong> Jay@apexstrive-global.com<br />
+                                        <strong>Address:</strong> 02 & 03 S.F., Camps Corner-1, Nr. Paras Bungalows, 100 Ft Road, Satellite, Ahmedabad, Gujarat, India - 380015<br />
                                     </p>
 
                                 </div>
