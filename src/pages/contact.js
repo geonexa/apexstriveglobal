@@ -34,21 +34,27 @@ const ContactPage = () => {
     }, [message]);
 
 {/* 13-07-26 */}
-    const teamMembers = [
+const teamMembers = [
   {
     name: "V.R. Gopani",
-    designation: "Partner",
+    designation: "Founder and Chairman",
     image: VRGopaniImg,
+    description:
+      "Vaikunth Gopani is a qualified Chartered Accountant with more than 30 years of experience in audit, taxation and accounting and is a member of The Institute of Chartered Accountants of India.",
   },
   {
     name: "Jaydeep Gopani",
-    designation: "Partner",
+    designation: "Managing Director",
     image: JaydeepImg,
+    description:
+      "Jaydeep Gopani is a qualified Chartered Accountant with more than 10 years of experience in audit, taxation and accounting and is a member of The Institute of Chartered Accountants of India.",
   },
   {
     name: "Shraddha Gopani",
-    designation: "Partner",
+    designation: "CEO",
     image: ShraddhaImg,
+    description:
+      "Shraddha Gopani is a qualified Chartered Accountant with more than 10 years of experience in audit, taxation and accounting and is a member of The Institute of Chartered Accountants of India.",
   },
 ];
     const handleChange = ({ target }) =>
@@ -209,7 +215,7 @@ const ContactPage = () => {
                 </section>
 
 {/* 13-07-26 */}
-                                                   <section className="pt-80 pb-80">
+                                                 <section className="pt-80 pb-80">
   <div className="container">
 
     <div className="text-center mb-5">
@@ -219,36 +225,48 @@ const ContactPage = () => {
     <div className="row">
 
       {teamMembers.map((member, index) => (
-        <div className="col-lg-4 col-md-6 col-sm-12 mb-4" key={index}>
-
+        <div className="col-lg-4 col-md-6 mb-4" key={index}>
           <div
+            className="h-100"
             style={{
               background: "#fff",
-              borderRadius: "10px",
+              borderRadius: "12px",
+              boxShadow: "0 8px 20px rgba(0,0,0,.08)",
               overflow: "hidden",
-              boxShadow: "0 5px 20px rgba(0,0,0,.1)"
             }}
           >
+            {/* Content */}
+            <div style={{ padding: "25px" }}>
+              <h4>{member.name}</h4>
 
+              <h6
+                style={{
+                  color: "#0d6efd",
+                  fontWeight: 600,
+                  marginBottom: "15px",
+                }}
+              >
+                {member.designation}
+              </h6>
+
+              <p style={{ lineHeight: "1.8" }}>
+                {member.description}
+              </p>
+            </div>
+
+            {/* Image at Bottom */}
             <Image
               src={member.image}
               alt={member.name}
-              width={400}
+              width={500}
               height={400}
               style={{
                 width: "100%",
-                height: "350px",
-                objectFit: "cover"
+                height: "300px",
+                objectFit: "cover",
               }}
             />
-
-            <div style={{ padding: "20px", textAlign: "center" }}>
-              <h4>{member.name}</h4>
-              <p>{member.designation}</p>
-            </div>
-
           </div>
-
         </div>
       ))}
 
