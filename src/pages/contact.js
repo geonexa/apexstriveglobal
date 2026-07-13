@@ -262,7 +262,7 @@ const teamMembers = [
               height={400}
               style={{
                 width: "100%",
-                height: "300px",
+                height: "400px",
                 objectFit: "cover",
               }}
             />
