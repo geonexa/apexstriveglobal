@@ -11,10 +11,6 @@ import Footer from '@/components/Footer'
 import PageHeader from '@/components/PageHeader'
 import Image from 'next/image'
 
-// 13-07-2026
-import VRGopaniImg from "../../public/images/team/VRGopani.jpg";
-import JaydeepImg from "../../public/images/team/Jaydeep.jpg";
-import ShraddhaImg from "../../public/images/team/Shraddha.jpg";
 
 const ContactPage = () => {
     const [formData, setFormData] = useState({ name: '', email: '', subject: '', phone: '', message: '' });
@@ -22,30 +18,6 @@ const ContactPage = () => {
     const [message, setMessage] = useState("")
 
 
-// 13-07-2026
-    const teamMembers = [
-  {
-    name: "V.R. Gopani",
-    designation: "Partner",
-    image: VRGopaniImg,
-    description:
-      "Working Partner & Qualified Chartered Accountant with 25+ years of experience in Audit, Taxation and Accounting.",
-  },
-  {
-    name: "Jaydeep Gopani",
-    designation: "Partner",
-    image: JaydeepImg,
-    description:
-      "Working Partner & Qualified Chartered Accountant with extensive experience in Audit, Taxation and Accounting.",
-  },
-  {
-    name: "Shraddha Gopani",
-    designation: "Partner",
-    image: ShraddhaImg,
-    description:
-      "Qualified Chartered Accountant associated with the firm in Audit, Taxation and Accounting.",
-  },
-];
 
     useEffect(() => {
         const messageTimer = setTimeout(() => {
@@ -211,58 +183,12 @@ const ContactPage = () => {
                                 </div>
                             </div>
 
-
-
-
-
-
-
-
-
                         </div>
                     </div>
                 </section>
 
 
-   // 13-07-26      
 
-
-                                                    <section className="pt-80 pb-80">
-  <div className="container">
-
-    <div className="text-center mb-5">
-      <h2>Our Leadership Team</h2>
-      <p>Meet our experienced professionals.</p>
-    </div>
-
-    <div className="row">
-      {teamMembers.map((member, index) => (
-        <div className="col-lg-4 col-md-6 col-sm-12 mb-4" key={index}>
-          <div className="card h-100 shadow border-0">
-
-            <Image
-              src={member.image}
-              alt={member.name}
-              className="card-img-top"
-              style={{
-                height: "350px",
-                objectFit: "cover",
-              }}
-            />
-
-            <div className="card-body text-center">
-              <h4>{member.name}</h4>
-              <h6 className="text-primary">{member.designation}</h6>
-              <p>{member.description}</p>
-            </div>
-
-          </div>
-        </div>
-      ))}
-    </div>
-
-  </div>
-</section>
                        <section className="google-map py-0">
                     <div id="map" className="height-500">
 
