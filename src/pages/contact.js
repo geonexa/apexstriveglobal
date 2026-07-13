@@ -11,6 +11,10 @@ import Footer from '@/components/Footer'
 import PageHeader from '@/components/PageHeader'
 import Image from 'next/image'
 
+// 13-07-26
+import VRGopaniImg from "../../public/images/team/VRGopani.jpg"
+import JaydeepImg from "../../public/images/team/Jaydeep.jpg"
+import ShraddhaImg from "../../public/images/team/Shraddha.jpg"
 
 const ContactPage = () => {
     const [formData, setFormData] = useState({ name: '', email: '', subject: '', phone: '', message: '' });
@@ -29,7 +33,24 @@ const ContactPage = () => {
         };
     }, [message]);
 
-
+// 13-07-26
+    const teamMembers = [
+  {
+    name: "V.R. Gopani",
+    designation: "Partner",
+    image: VRGopaniImg,
+  },
+  {
+    name: "Jaydeep Gopani",
+    designation: "Partner",
+    image: JaydeepImg,
+  },
+  {
+    name: "Shraddha Gopani",
+    designation: "Partner",
+    image: ShraddhaImg,
+  },
+];
     const handleChange = ({ target }) =>
         setFormData((prev) => ({
             ...prev,
@@ -187,7 +208,40 @@ const ContactPage = () => {
                     </div>
                 </section>
 
+// 13-07-26
+                                                    <section className="pt-5 pb-5">
+  <div className="container">
 
+    <h2 className="text-center mb-5">Our Team</h2>
+
+    <div className="row">
+
+      {teamMembers.map((member, index) => (
+        <div className="col-lg-4 col-md-6 mb-4" key={index}>
+
+          <div className="card">
+
+            <Image
+              src={member.image}
+              alt={member.name}
+              width={400}
+              height={400}
+            />
+
+            <div className="card-body text-center">
+              <h4>{member.name}</h4>
+              <p>{member.designation}</p>
+            </div>
+
+          </div>
+
+        </div>
+      ))}
+
+    </div>
+
+  </div>
+</section>
 
                        <section className="google-map py-0">
                     <div id="map" className="height-500">
