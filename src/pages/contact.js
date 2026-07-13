@@ -11,7 +11,7 @@ import Footer from '@/components/Footer'
 import PageHeader from '@/components/PageHeader'
 import Image from 'next/image'
 
-// 13-07-26
+{/* 13-07-26 */}
 import VRGopaniImg from "../../public/images/team/VRGopani.jpg"
 import JaydeepImg from "../../public/images/team/Jaydeep.jpg"
 import ShraddhaImg from "../../public/images/team/Shraddha.jpg"
@@ -33,7 +33,7 @@ const ContactPage = () => {
         };
     }, [message]);
 
-// 13-07-26
+{/* 13-07-26 */}
     const teamMembers = [
   {
     name: "V.R. Gopani",
@@ -208,7 +208,7 @@ const ContactPage = () => {
                     </div>
                 </section>
 
-// 13-07-26
+{/* 13-07-26 */}
                                                     <section className="pt-5 pb-5">
   <div className="container">
 
