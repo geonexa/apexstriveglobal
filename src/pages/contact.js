@@ -12,9 +12,9 @@ import PageHeader from '@/components/PageHeader'
 import Image from 'next/image'
 
 {/* 13-07-26 */}
-import VRGopaniImg from "../../public/images/team/VRGopani.jpg"
-import JaydeepImg from "../../public/images/team/Jaydeep.jpg"
-import ShraddhaImg from "../../public/images/team/Shraddha.jpg"
+import VRGopaniImg from "../../public/images/team/V.R. Gopani.jpeg"
+import JaydeepImg from "../../public/images/team/Jaydeep Gopani.jpeg"
+import ShraddhaImg from "../../public/images/team/CEO Shraddha Gopani.jpeg"
 
 const ContactPage = () => {
     const [formData, setFormData] = useState({ name: '', email: '', subject: '', phone: '', message: '' });
