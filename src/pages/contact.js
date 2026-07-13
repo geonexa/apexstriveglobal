@@ -224,8 +224,10 @@ const ContactPage = () => {
                 </section>
 
 
-   // 13-07-26       
-                 <section className="pt-80 pb-80">
+   // 13-07-26      
+
+
+                                                    <section className="pt-80 pb-80">
   <div className="container">
 
     <div className="text-center mb-5">
@@ -260,8 +262,8 @@ const ContactPage = () => {
     </div>
 
   </div>
-</section>                                   
-                <section className="google-map py-0">
+</section>
+                       <section className="google-map py-0">
                     <div id="map" className="height-500">
 
 
